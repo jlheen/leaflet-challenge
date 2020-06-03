@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,21 @@
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
-
+  <!-- code source: https://leafletjs.com/examples/quick-start/ -->
+  <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/> -->
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
+
 <body>
 
   <!-- The div that holds our map -->
-  <div id="map"></div>
+  <div id="map-id"></div>
+
+  <!-- API key -->
+  <script type="text/javascript" src="static/js/config.js"></script>
 
   <!-- Leaflet JavaScript -->
   <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
@@ -24,4 +32,5 @@
   <!-- Our JavaScript -->
   <script type="text/javascript" src="static/js/logic.js"></script>
 </body>
+
 </html>
